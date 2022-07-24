@@ -1,0 +1,47 @@
+/* Estilos generales, no incluye fonts*/
+
+
+/*Dimensiona logos de enlace de la primera linea*/
+.icon1 {
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+}
+
+/*Dimensiona logos de enlace de la primera linea*/
+.icon2 {
+	height: 55px;
+	width: 55px;
+	border-radius: 20px;
+}
+
+/*Segunda linea: color */
+
+#SecondLine {
+    background-color: rgb(39, 37, 37);
+}
+
+/* Empieza Estilo 3ra Linea */
+
+/*dimensiona video */
+
+#FondoGeneral {
+  min-width: 50vh;
+  min-height: 100%;
+  left: auto;
+  right: auto;
+  z-index: 1;
+  transform: translateX(50), translateY(50) ;
+}
+
+#SobreFondo1 {
+    z-index: 2;
+}
+
+/* Tercera linea - Anidaciones de grids */
+
+/*fondo franja anidada*/
+
+.FranjaAnidada {
+    background-color: rgb(39, 37, 37);
+}
